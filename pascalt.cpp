@@ -5,8 +5,10 @@ int pt(int a){
     int x=1;
     cout<<x<<" ";
 
-for (int i=0;i<a;i++){
-    curr=x*(a)
+for (int i=1;i<a;i++){
+    int curr=x*(a-i)/i;
+    cout<<curr<<" ";
+    x=curr;
 
 }
 
